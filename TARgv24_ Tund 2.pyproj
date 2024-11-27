@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7a40b3b0-e309-4016-975b-046bbc7eac46</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TARgv24__Tund_2.py</StartupFile>
+    <StartupFile>Tund2(Datatime_Try_excepty).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="TARgv24__Tund_2.py" />
+    <Compile Include="Tund2%28Datatime_Try_excepty%29.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
