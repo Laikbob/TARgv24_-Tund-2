@@ -47,7 +47,7 @@ from math import *
 # print(f"Ringi pindala: {ringi_pindala}")
 # print(f"Ringi ümbermõõt: {ringi_umbermooud}")
 
-#Üleasnne 4
+# Üleasnne 4
 # maa_raadius=6378
 # mundi_diameter=2
 # mundi_diameter_km = mundi_diameter / 1000
