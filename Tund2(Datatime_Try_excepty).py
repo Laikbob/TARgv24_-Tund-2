@@ -1,5 +1,5 @@
 from datetime import *
-from math import * 
+import math
 
 # Üleasnne 1
 tana=date.today()
@@ -35,18 +35,16 @@ print(vastus1,"\n",vastus2,"\n",vastus3)
 
 
 # Ülesanne 3
-R = float(input("Sisesta ringi raadius (R): "))
-ruudu_pindala = (2 * R) ** 2  
-ruudu_umbermooud = 4 * (2 * R)  
-
-ringi_pindala = math.pi * R ** 2 
-ringi_umbermooud = 2 * math.pi * R  
-
-print(f"Ruudu pindala: {ruudu_pindala}")
-print(f"Ruudu ümbermõõt: {ruudu_umbermooud}")
-print(f"Ringi pindala: {ringi_pindala}")
-print(f"Ringi ümbermõõt: {ringi_umbermooud}")
-
+try:
+    R=float(input("Sisesta R: "))
+    Sk=pi*R**2
+    Skv=(2*R)**2
+    Lkv=2*R*4
+    print(f"Ringi pindala on{Sk}\nRingi ümnbermõõt on {Lk}\nRuudu
+    pindala on {Skv} \nRuudu Ümbermõõt on {Lkv}\n")
+except:
+    print("On vaja number!")
+    
 # Üleasnne 4
 maa_raadius=6378
 mundi_diameter=2
