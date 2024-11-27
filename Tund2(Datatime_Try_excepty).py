@@ -1,5 +1,7 @@
 from datetime import *
-import math
+from math import*
+
+
 
 # Üleasnne 1
 tana=date.today()
